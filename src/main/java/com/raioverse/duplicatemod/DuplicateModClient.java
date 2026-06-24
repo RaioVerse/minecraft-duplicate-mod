@@ -14,7 +14,7 @@ public class DuplicateModClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		// Registrar a tecla Z para duplicar
-		dplicateKey = KeyBindingHelper.registerKeyBinding(
+		duplicateKey = KeyBindingHelper.registerKeyBinding(
 			new KeyBinding(
 				"key.duplicate.duplicate",
 				InputUtil.Type.KEYSYM,
