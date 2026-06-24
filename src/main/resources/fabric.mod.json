@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "duplicate-mod",
+  "version": "${version}",
+  "name": "Item Duplicate Mod",
+  "description": "Duplica itens na mão ao apertar Z - Fabric 1.20.1",
+  "authors": ["RaioVerse"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/duplicate/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.raioverse.duplicatemod.DuplicateModClient"
+    ]
+  },
+  "mixins": [
+    "duplicate.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1"
+  }
+}
